@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:50px;
+}
+
+.box{
+    height:560px;
+    width:700px;
+    background-color: #002868;
+    float: left;
+}
+.red{
+    height:80px;
+    width:1500px;
+    background-color: #BF0A30;
+}
+.white{
+    height:80px;
+    width:1500px;
+    background-color:whitesmoke;
+}
+.stars{
+    color: white;
+    padding-top: 10px;
+}
+p{
+    letter-spacing: 60px;
+    line-height: 5px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 50px;
+}

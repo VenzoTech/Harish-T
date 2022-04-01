@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url('index.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width:400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    border-radius: 20%;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+}
+.text input{
+    border: none;
+    outline:none;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    color:black;
+    border:2px solid white;
+    padding: 14px 10px;
+    border-radius:30px;
+
+
+}
+::placeholder{
+    color: white;
+}
+.text input[type="email"]:focus,.text input[type="password"]:focus{
+    width:300px;
+    border-color:pink;
+}
+.text input[type="submit"]{
+    border: none;
+    outline:none;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    color:white;
+    border:2px solid pink;
+    padding: 14px 40px;
+    border-radius:30px;
+    cursor:pointer
+}
+a{
+    color:pink;
+}

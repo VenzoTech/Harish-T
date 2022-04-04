@@ -1,0 +1,35 @@
+#title{
+    background-color: pink;
+    padding: 3% 15%;
+
+}
+h1{
+    line-height: 1.5;
+    size:3rem;
+    font-family:'Montserrat-black';
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+#img1{
+ transform: rotate(25deg);
+ height: 500px;
+}
+.btn-outline-light{
+    margin: 5%;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+p{
+    color: grey;
+}
+.icon{
+  color:pink;
+  margin:1rem;
+}
+.icon:hover{
+    color:black
+}
